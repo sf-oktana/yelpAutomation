@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestYelp]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="yelptest(failed)">
+    <classes>
+      <class name="StepDefinition.SearchSteps">
+        <methods>
+          <include name="add_filter"/>
+        </methods>
+      </class> <!-- StepDefinition.SearchSteps -->
+    </classes>
+  </test> <!-- yelptest(failed) -->
+</suite> <!-- Failed suite [TestYelp] -->
